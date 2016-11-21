@@ -1,0 +1,34 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Open a URL",
+        "description": "",
+        "id": "try-to-open-a-website;open-a-url",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13460918154,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigates to the url",
+            "match": {
+              "location": "navigationSteps.homeScreen()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Try to open a website",
+    "description": "",
+    "id": "try-to-open-a-website",
+    "keyword": "Feature",
+    "uri": "navigation.feature"
+  }
+]
