@@ -1,13 +1,13 @@
 # Cucumber-Java-Maven
 This repository contains a scaffolding to automation test wih Selenium Webdriver, Cucumber, Java and Maven.
 
-##Development environment
+## Development environment
 * **IDE**: IntelliJ
 * **Java Version**: openJDK 1.8
 * **OS**: Ubuntu 16.04 LTS 
 * **Maven version**: 3.3.9
 
-##Running test
+## Running test
 Go to your proyect directory from terminal and hit following commands:
 
 ``
