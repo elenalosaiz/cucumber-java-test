@@ -4,8 +4,10 @@ package steps_definition;
 import cucumber.api.java.en.Given;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import java.io.IOException;
+import steps_definition.Hooks;
 
+import java.io.IOException;
+import java.net.MalformedURLException;
 
 
 /**
@@ -15,13 +17,13 @@ public class navigationSteps {
 
     public WebDriver driver;
 
-    public navigationSteps() throws IOException {
-       driver = new FirefoxDriver();
+    public navigationSteps() throws MalformedURLException {
+       driver = Hooks.driver;
     }
 
     @Given("^user navigates to the url$")
     public void homeScreen() throws Throwable {
-        driver.get("https://www.facebook.com/");
+        driver.get("https://cucumber.io/");
 
     }
 }
